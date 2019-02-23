@@ -1,0 +1,8 @@
+[package]
+name = "invaders"
+version = "0.1.0"
+authors = ["Tom Streller <tom.streller@functional-games.de>"]
+edition = "2018"
+
+[dependencies]
+amethyst = "0.10"

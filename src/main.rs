@@ -8,7 +8,7 @@ mod systems;
 use amethyst::prelude::*;
 use amethyst::core::transform::TransformBundle;
 use amethyst::input::InputBundle;
-use amethyst::renderer::{DisplayConfig, DrawFlat2D, Event, Pipeline, RenderBundle, Stage, VirtualKeyCode};
+use amethyst::renderer::{DisplayConfig, DrawFlat2D, Pipeline, RenderBundle, Stage};
 
 use crate::config::ArenaConfig;
 use crate::invaders::Invaders;

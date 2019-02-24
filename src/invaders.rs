@@ -40,8 +40,6 @@ impl SimpleState for Invaders {
         let world = data.world;
         let sprite_sheet_handle = load_sprite_sheet(world);
 
-        world.register::<Defender>();
-
         initialise_camera(world);
         initialise_defender(world, sprite_sheet_handle);
     }

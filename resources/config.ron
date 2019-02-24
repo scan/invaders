@@ -1,0 +1,4 @@
+arena: (
+    width: 256.0,
+    height: 224.0,
+)

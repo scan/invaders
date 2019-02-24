@@ -1,0 +1,6 @@
+(
+    axes: {
+        "defender": Emulated(pos: Key(D), neg: Key(A))
+    },
+    actions: {}
+)

@@ -7,6 +7,8 @@ use amethyst::renderer::{
     SpriteSheetFormat, SpriteSheetHandle, Texture, TextureMetadata,
 };
 
+use crate::config::ArenaConfig;
+
 pub const ARENA_WIDTH: f32 = 256.0;
 pub const ARENA_HEIGHT: f32 = 224.0;
 
